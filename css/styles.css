@@ -21,7 +21,23 @@ body {
     background-color: var(--mid) !important;
 }
 
-.form-control {
+.form-control, .btn {
     min-height: 3.125rem;
     line-height: initial;
+}
+
+.img-cold {
+background-image: url(../img/coldplay-chile-2022.jpg);
+background-size: cover;
+background-position: center;
+}
+.img-metalica {
+background-image: url(../img/metallica-chile-2022-sold-out.jpg);
+background-size: cover;
+background-position: center;
+}
+.img-primavera {
+background-image: url(../img/primavera-sound-2022-afiche-Grande.jpg);
+background-size: cover;
+background-position: center;
 }
