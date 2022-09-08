@@ -1,0 +1,27 @@
+:root {
+    --oscuro : #022835;
+    --mid : #104050;
+    --main : #26596A;
+    --celes : #457585;
+    --claro : #6C929F;
+    --blanco : #ffffff;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--blanco);
+}
+
+.bg-dark {
+    background-color: var(--oscuro) !important;
+}
+
+.bg-oscuro-mid {
+    background-color: var(--mid) !important;
+}
+
+.form-control {
+    min-height: 3.125rem;
+    line-height: initial;
+}
