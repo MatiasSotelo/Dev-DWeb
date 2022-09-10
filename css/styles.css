@@ -41,3 +41,18 @@ background-image: url(../img/primavera-sound-2022-afiche-Grande.jpg);
 background-size: cover;
 background-position: center;
 }
+.img-min {
+background-image: url(../img/31Minutos-LollaEsCultura_Feed.png);
+background-size: cover;
+background-position: center;
+}
+.img-lol {
+background-image: url(../img/Lineup-Horrarios-LollaCL-2022.jpeg);
+background-size: cover;
+background-position: center;
+} 
+.img-unn {
+background-image: url(../img/unnamed_opt.jpg);
+background-size: cover;
+background-position: center;
+}
