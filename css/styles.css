@@ -5,6 +5,7 @@
     --celes : #457585;
     --claro : #6C929F;
     --blanco : #ffffff;
+    --naranjo : #172457;
 }
 
 body {
@@ -12,13 +13,21 @@ body {
     font-weight: 300;
     color: var(--blanco);
 }
-
+.bg-main{
+    background-color: var(--main);
+}
 .bg-dark {
     background-color: var(--oscuro) !important;
 }
 
 .bg-oscuro-mid {
     background-color: var(--mid) !important;
+}
+.bg-claro {
+    background-color: var(--claro);
+}
+.bg-or {
+background-color: var(--naranjo);
 }
 
 .form-control, .btn {
@@ -56,3 +65,16 @@ background-image: url(../img/unnamed_opt.jpg);
 background-size: cover;
 background-position: center;
 }
+
+.img-fondo {
+    background-image: url(../img/bgclient-op.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+.buscador{
+margin-top: 1.25rem;
+box-sizing: inherit;
+}
+.mt-n1 {
+    margin-top: -2.00rem !important;
+  }
